@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+article.character {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    position: relative; /* Establish positioning context */
+}
+
+h1 {
+    text-align: center;
+}
+
+article.character > img {
+    position: absolute; /* Position images absolutely */
+}
+
+/* Pas de grootte van elke afbeelding aan */
+#face { 
+    width: 80%;
+    height: auto; /* Hoogte automatisch aanpassen om de aspectverhouding te behouden */
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#mouth {
+    width: 120px;
+    height: auto;
+    z-index: 2; /* Zorg ervoor dat de mond boven andere afbeeldingen ligt */
+    top: 0;
+    left: 0;
+}
+
+#lashes {
+    width: 100px; /* Breedte aanpassen */
+    height: auto; /* Hoogte automatisch aanpassen om de aspectverhouding te behouden */
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+#eyes {
+    width: 50%;
+    height: auto;
+    z-index: 4; /* Zorg ervoor dat de ogen boven andere afbeeldingen liggen */
+    top: 0;
+    left: 0;
+}
