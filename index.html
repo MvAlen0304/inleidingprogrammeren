@@ -10,16 +10,100 @@
 
 <body>
     <header>
-        <h1>Makeover gamee!</h1>
+        <h1>Makeover game!</h1>
     </header>
+    <section class="toggles">
+    <details>
+        <summary>Skin tone</summary>
+        <section class="faceBtns">
+            <ul>
+                <li><button id="faceLight"></button></li>
+                <li><button id="faceLightM"></button></li>
+                <li><button id="faceDarkM"></button></li>
+                <li><button id="faceDark"></button></li>
+            </ul>
+        </section>
+      </details>
+      <details>
+        <summary>Eyes</summary>
+        <section class="eyeBtns">
+            <ul>
+                <li><button id="noEyeBtn"><p>X</p></button></li>
+                <li><button id="eyesBlue">Blue</button></li>
+                <li><button id="eyesGreen">Green</button></li>
+                <li><button id="eyesBrown">Brown</button></li>
+            </ul>
+        </section>
+      </details>
+      <details>
+        <summary>Lashes</summary>
+        <section class="lashBtns">
+            <ul>
+                <li><button id="noLashBtn"><p>X</p></button></li>
+                <li><button id="lash"></button></li>
+                <li><button id="eyeline"></button></li>
+            </ul>
+        </section>
+      </details>
+      <details>
+        <summary>Eyebrows</summary>
+        <section class="eyebrowBtns">
+            <ul>
+                <li><button id="eyebrow1"></button></li>
+                <li><button id="eyebrowPointy"></button></li>
+                <li><button id="eyebrowSlit"></button></li>
+            </ul>
+        </section>
+      </details>
+      <details>
+        <summary>Lips</summary>
+        <section class="mouthBtns">
+            <ul>
+                <li><button id="mouthThin"></button></li>
+                <li><button id="mouthFull"></button></li>
+            </ul>
+        </section>
+      </details>
+      <details>
+        <summary>Hair</summary>
+        <section class="hairBtns">
+            <section class="hairColor">
+                <ul>
+                    <li><button id="brownHair"></button></li>
+                    <li><button id="blondHair"></button></li>
+                    <li><button id="redHair"></button></li>
+                </ul>
+            </section>
+            <ul class="hairBrown">
+                <li><button id="hairStraightGirlBrown"></button></li>
+                <li><button id="hairStraightBoyBrown"></button></li>
+                <li><button id="hairCurlyGirlBrown"></button></li>
+                <li><button id="hairCurlyBoyBrown"></button></li>
+            </ul>
+            <ul class="hairBlond">
+                <li><button id="hairStraightGirlBlond"></button></li>
+                <li><button id="hairStraightBoyBlond"></button></li>
+                <li><button id="hairCurlyGirlBlond"></button></li>
+                <li><button id="hairCurlyBoyBlond"></button></li>
+            </ul>
+            <ul class="hairRed">
+                <li><button id="hairStraightGirlRed"></button></li>
+                <li><button id="hairStraightBoyRed"></button></li>
+                <li><button id="hairCurlyGirlRed"></button></li>
+                <li><button id="hairCurlyBoyRed"></button></li>
+            </ul>
+        </section>
+      </details>
+    </section>
     <section class="characterFace">
         <img id="face" src="./img/SVG/faceLight.svg" alt="">
         <img id="eyes" src="./img/SVG/eyesGreen.svg" alt="">
         <img id="lashes" src="./img/SVG/lash.svg" alt="">
         <img id="eyebrow" src="./img/SVG/eyebrow1.svg" alt="">
         <img id="mouth" src="./img/SVG/mouthThin.svg" alt="">
+        <img id="hair" src="./img/SVG/hairStraightGirlBrown.svg" alt="">
     </section>
-    <section>
+    <!-- <section class='expandBtns'>
         <ul>
             <li><button id="faceExpand">Skin tone</button></li>
             <li><button id="eyeExpand">Eye color</button></li>
@@ -31,21 +115,27 @@
     </section>
     <section class="faceBtns">
         <ul>
-        <li><button id="lightBtn"></button></li>
-        <li><button id="mediumLBtn"></button></li>
-        <li><button id="mediumDBtn"></button></li>
-        <li><button id="darkBtn"></button></li>
+            <li><button id="faceLight"></button></li>
+            <li><button id="faceLightM"></button></li>
+            <li><button id="faceDarkM"></button></li>
+            <li><button id="faceDark"></button></li>
         </ul>
     </section>
     <section class="eyeBtns">
-        <li><button id="eyeBlue"></button></li>
-        <li><button id="eyeGreen"></button></li>
-        <li><button id="eyeBrown"></button></li>
+        <ul>
+            <li><button id="noEyeBtn"><p>X</p></button></li>
+            <li><button id="eyesBlue">Blue</button></li>
+            <li><button id="eyesGreen">Green</button></li>
+            <li><button id="eyesBrown">Brown</button></li>
+        </ul>
     </section>
     <section class="lashBtns">
-        <li><button id="lashLong"></button></li>
-        <li><button id="eyeliner"></button></li>
-    </section>
+        <ul>
+            <li><button id="noLashBtn"><p>X</p></button></li>
+            <li><button id="lashLongBtn"></button></li>
+            <li><button id="eyelinerBtn"></button></li>
+        </ul>
+    </section> -->
 
     <script src="scripts.js"></script>
 </body>

@@ -1,19 +1,32 @@
-body, html {
+body,
+html {
+    /* https://www.freepik.com/free-vector/background-with-female-hairdressing-salon_3824607.htm */
     background-image: url("./img/PNG/makoverSalon.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
-    position: relative; 
+    position: relative;
+    overflow: hidden;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
+}
+
+.toggles {
+    margin-left: 1em;
 }
 
 button {
     border: black solid 2px;
-    border-radius: 15%;
+    border-radius: .5em;
+}
+
+p {
+    color: red;
+    font-size: 3em;
+    margin: 0;
 }
 
 .faceBtns button {
@@ -22,48 +35,72 @@ button {
     display: inline-block;
 }
 
-#lightBtn {
+.hairBtns button {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.eyeBtns button {
+    padding: 1em 1em;
+    display: inline-block;
+    margin: .5em 0;
+}
+
+#faceLight {
     background-color: #FBD9C1;
 }
 
-#mediumLBtn {
+#faceLightM {
     background-color: #D3A079;
 }
 
-#mediumDBtn {
+#faceDarkM {
     background-color: #A47256;
 }
 
-#darkBtn {
+#faceDark {
     background-color: #63421E;
+}
+
+#brownHair {
+    background-color: #745848;
+}
+
+#blondHair {
+    background-color: #D5B89B;
+}
+
+#redHair {
+    background-color: #AC3C2D;
 }
 
 section.characterFace {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     width: 100%;
-    position: relative; 
-    top: 10em; 
-    transform: translateY(-50%); 
-    right: 0; 
+    top: 0;
+    position: relative;
+    transform: translateY(-50%);
+    right: 0;
 }
 
 h1 {
     text-align: center;
 }
 
-section.characterFace > img {
-    position: absolute; 
-    grid-column: 5 / 7;
+section.characterFace>img {
+    position: absolute;
+    grid-column: 4 / 8;
 }
 
-#face { 
+#face {
     z-index: 1;
     position: absolute;
 }
 
 #mouth {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -73,11 +110,16 @@ section.characterFace > img {
 }
 
 #eyes {
-    z-index: 4; 
+    z-index: 4;
     position: absolute;
 }
 
 #eyebrow {
     z-index: 5;
+    position: absolute;
+}
+
+#hair {
+    z-index: 6; 
     position: absolute;
 }
