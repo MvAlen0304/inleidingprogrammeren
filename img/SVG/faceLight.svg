@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.22 94.19">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.82 100.69">
   <defs>
     <style>
       .cls-1 {
@@ -20,19 +20,15 @@
       }
     </style>
   </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
-    <g>
-      <g>
-        <ellipse class="cls-3" cx="8.23" cy="52.48" rx="8" ry="12.77" transform="translate(-10.06 2.61) rotate(-11.22)"/>
-        <ellipse class="cls-3" cx="102.99" cy="52.48" rx="12.77" ry="8" transform="translate(31.47 143.28) rotate(-78.78)"/>
-      </g>
-      <ellipse class="cls-2" cx="9.09" cy="53.25" rx="5.23" ry="8.34" transform="translate(-10.19 2.79) rotate(-11.22)"/>
-      <ellipse class="cls-2" cx="102.63" cy="53.11" rx="8.34" ry="5.23" transform="translate(30.56 143.44) rotate(-78.78)"/>
-      <circle class="cls-3" cx="55.9" cy="47.09" r="47.09"/>
-      <g>
-        <path class="cls-1" d="m64.64,64.44s0,0,0,0c0-3.06-3.84-5.55-8.59-5.55s-8.59,2.48-8.59,5.55c0,0,0,0,0,0h17.17Z"/>
-        <ellipse class="cls-2" cx="56.08" cy="64.24" rx="8.11" ry="3.35"/>
-      </g>
-    </g>
+  <g>
+    <ellipse class="cls-3" cx="9.69" cy="55.88" rx="8" ry="12.77" transform="translate(-10.69 2.95) rotate(-11.22)"/>
+    <ellipse class="cls-3" cx="104.44" cy="55.88" rx="12.77" ry="8" transform="translate(29.31 147.45) rotate(-78.78)"/>
+  </g>
+  <ellipse class="cls-2" cx="10.55" cy="56.65" rx="5.23" ry="8.34" transform="translate(-10.82 3.14) rotate(-11.22)"/>
+  <ellipse class="cls-2" cx="104.09" cy="56.51" rx="8.34" ry="5.23" transform="translate(28.4 147.61) rotate(-78.78)"/>
+  <circle class="cls-3" cx="57.35" cy="50.49" r="47.09"/>
+  <g>
+    <path class="cls-1" d="m66.09,67.83s0,0,0,0c0-3.06-3.84-5.55-8.59-5.55s-8.59,2.48-8.59,5.55c0,0,0,0,0,0h17.17Z"/>
+    <ellipse class="cls-2" cx="57.54" cy="67.63" rx="8.11" ry="3.35"/>
   </g>
 </svg>
