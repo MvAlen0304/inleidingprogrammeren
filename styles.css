@@ -7,7 +7,8 @@ html {
     height: 100%;
     margin: 0;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -16,17 +17,17 @@ ul {
 
 .toggles {
     margin-left: 1em;
+    display: flex;
+}
+.toggles details {
+    flex-direction: row;
+    padding: 1em;
+    background-color: lightpink;
 }
 
 button {
     border: black solid 2px;
     border-radius: .5em;
-}
-
-p {
-    color: red;
-    font-size: 3em;
-    margin: 0;
 }
 
 .faceBtns button {
@@ -79,8 +80,8 @@ section.characterFace {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     width: 100%;
-    top: 0;
-    position: relative;
+    top: 30%;
+    position: absolute;
     transform: translateY(-50%);
     right: 0;
 }
@@ -120,6 +121,6 @@ section.characterFace>img {
 }
 
 #hair {
-    z-index: 6; 
+    z-index: 6;
     position: absolute;
 }

@@ -25,30 +25,47 @@ function skinChange(event) {
     console.log(event)
     const buttonId = event.target.id;
     
-    if (buttonId === 'faceLight') {
-        document.getElementById('face').src = './img/svg/' + buttonId + '.svg';
-    } else if (buttonId === 'faceLightM') {
-        document.getElementById('face').src = './img/svg/faceLightM.svg';
-    } else if (buttonId === 'faceDarkM') {
-        document.getElementById('face').src = './img/svg/faceDarkM.svg';
-    } else if (buttonId === 'faceDark') {
-        document.getElementById('face').src = './img/svg/faceDark.svg';
-    }
+    document.getElementById('face').src = './img/svg/' + buttonId + '.svg';
 }
 
 function eyeChange(event) {
     const buttonId = event.target.id;
 
-    if (buttonId === 'eyesBlue') {
-        document.getElementById('eyes').src = './img/svg/eyesBlue.svg';
-    } else if (buttonId === 'eyesGreen') {
-        document.getElementById('eyes').src = './img/svg/eyesGreen.svg';
-    } else if (buttonId === 'eyesBrown') {
-        document.getElementById('eyes').src = './img/svg/eyesBrown.svg';
-    }
+    document.getElementById('eyes').src = './img/svg/' + buttonId + '.svg';
+}
+
+function lashChange(event) {
+    const buttonId = event.target.id;
+
+    document.getElementById('lashes').src = './img/svg/' + buttonId + '.svg';
+}
+
+function eyebrowChange(event) {
+    const buttonId = event.target.id;
+
+    document.getElementById('eyebrow').src = './img/svg/' + buttonId + '.svg';
+}
+
+function mouthChange(event) {
+    const buttonId = event.target.id;
+
+    document.getElementById('mouth').src = './img/svg/' + buttonId + '.svg';
+}
+
+function hairChange(event) {
+    const buttonId = event.target.id;
+
+    document.getElementById('hair').src = './img/svg/' + buttonId + '.svg';
 }
 
 document.querySelector('.faceBtns').addEventListener("click", skinChange);
 
 document.querySelector('.eyeBtns').addEventListener("click", eyeChange)
 
+document.querySelector('.lashBtns').addEventListener("click", lashChange)
+
+document.querySelector('.eyebrowBtns').addEventListener("click", eyebrowChange)
+
+document.querySelector('.mouthBtns').addEventListener("click", mouthChange)
+
+document.querySelector('.hairBtns').addEventListener("click", hairChange)
