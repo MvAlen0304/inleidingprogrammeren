@@ -35,15 +35,15 @@ function hairChange(event) {
     const buttonId = event.target.id;
 
     if (buttonId === "brownHair") {
-        document.querySelector('.hairBrown').style.display = 'inline-block';
+        document.querySelector('.hairBrown').style.display = 'block';
         document.querySelector('.hairBlond').style.display = 'none';
         document.querySelector('.hairRed').style.display = 'none';
     } else if (buttonId === "blondHair") {
-        document.querySelector('.hairBlond').style.display = 'inline-block';
+        document.querySelector('.hairBlond').style.display = 'block';
         document.querySelector('.hairBrown').style.display = 'none';
         document.querySelector('.hairRed').style.display = 'none';
     } else if (buttonId === "redHair") {
-        document.querySelector('.hairRed').style.display = 'inline-block';
+        document.querySelector('.hairRed').style.display = 'block';
         document.querySelector('.hairBlond').style.display = 'none';
         document.querySelector('.hairBrown').style.display = 'none';
     }
@@ -66,3 +66,4 @@ document.querySelector('.mouthBtns').addEventListener("click", mouthChange)
 document.querySelector('.hairBtns').addEventListener("click", hairChange)
 
 document.querySelector('.hairColor').addEventListener("click", hairChange)
+
