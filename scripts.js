@@ -4,31 +4,31 @@ function skinChange(event) {
     console.log(event)
     const buttonId = event.target.id;
     
-    document.getElementById('face').src = './img/svg/' + buttonId + '.svg';
+    document.getElementById('face').src = 'img/svg/' + buttonId + '.svg';
 }
 
 function eyeChange(event) {
     const buttonId = event.target.id;
 
-    document.getElementById('eyes').src = './img/svg/' + buttonId + '.svg';
+    document.getElementById('eyes').src = 'img/svg/' + buttonId + '.svg';
 }
 
 function lashChange(event) {
     const buttonId = event.target.id;
 
-    document.getElementById('lashes').src = './img/svg/' + buttonId + '.svg';
+    document.getElementById('lashes').src = 'img/svg/' + buttonId + '.svg';
 }
 
 function eyebrowChange(event) {
     const buttonId = event.target.id;
 
-    document.getElementById('eyebrow').src = './img/svg/' + buttonId + '.svg';
+    document.getElementById('eyebrow').src = 'img/svg/' + buttonId + '.svg';
 }
 
 function mouthChange(event) {
     const buttonId = event.target.id;
 
-    document.getElementById('mouth').src = './img/svg/' + buttonId + '.svg';
+    document.getElementById('mouth').src = 'img/svg/' + buttonId + '.svg';
 }
 
 function hairChange(event) {
